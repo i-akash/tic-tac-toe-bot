@@ -1,0 +1,10 @@
+.board{
+    width: 20rem;
+    margin: 10px;
+    padding: 10px;
+    background-color:rgb(46, 46, 46);
+}
+
+.board .row{
+    display: flex;
+}

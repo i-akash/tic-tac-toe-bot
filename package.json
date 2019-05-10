@@ -1,22 +1,13 @@
 {
   "name": "electron-react-webpack-boilerplate",
   "version": "1.4.0",
-  "description": "Minimal Electron, React, PostCSS and Webpack boilerplate to help you get started with building your next app.",
   "license": "MIT",
   "private": false,
   "repository": {
-    "type": "git",
-    "url": "https://github.com/alexdevero/electron-react-webpack-boilerplate.git"
+    "type": "git"
   },
   "homepage": "",
-  "bugs": {
-    "url": "https://github.com/alexdevero/electron-react-webpack-boilerplate.git/issues"
-  },
-  "author": {
-    "name": "Alex Devero",
-    "email": "deveroalex@gmail.com",
-    "url": "https://github.com/alexdevero"
-  },
+  "author": "akash",
   "keywords": [
     "app",
     "boilerplate",
@@ -43,8 +34,11 @@
     "postpackage": "electron-packager ./ --out=./builds"
   },
   "dependencies": {
+    "@babel/plugin-proposal-class-properties": "^7.4.4",
+    "bootstrap": "^4.3.1",
     "electron": "^4.1.4",
     "react": "^16.8.6",
+    "react-bootstrap": "^1.0.0-beta.8",
     "react-dom": "^16.8.6"
   },
   "devDependencies": {

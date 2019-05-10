@@ -1,0 +1,32 @@
+.cell-btn{
+    width: 6rem;
+    height: 5.5rem;   
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 50px;        
+}
+
+
+.cell-btn:nth-child(1),.cell-btn:nth-child(2){
+    border-right: 3px solid rgb(92, 89, 89);
+}
+
+#cell-btnx-0,#cell-btnx-1{
+    border-bottom: 3px solid rgb(92, 89, 89);
+}
+
+
+.cell-btn:hover{
+    background-image: radial-gradient(circle,rgb(63, 63, 63),rgb(46, 46, 46));
+    cursor: pointer;    
+}
+
+.cell-btn .X{
+    color: rgb(15, 151, 15);
+}
+
+
+.cell-btn .O{
+    color: rgb(99, 152, 201);
+}
